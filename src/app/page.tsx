@@ -18,22 +18,24 @@ export default function Home() {
       </div>
 
       <div className='homepage-right'>
-        <div className="section-header">
+        <div id="about" className="section-header">
           <h2>About</h2>
           <div className="section-line" />
         </div>
         <AboutSection />
-        <div className="section-header">
+        <div id="experience" className="section-header">
           <h2>Experience</h2>
           <div className="section-line" />
         </div> 
         <ExperiencesSection />
-        <div className="section-header">
+        <div id="projects" className="section-header">
           <h2>Projects</h2>
           <div className="section-line" />
         </div> 
         <ProjectsSection />
-        <FooterSection />
+        <div id="contact" >
+          <FooterSection />   
+        </div>
         </div>
       </div>
   );

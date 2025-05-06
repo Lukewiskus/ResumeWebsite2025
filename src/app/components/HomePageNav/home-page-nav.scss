@@ -19,7 +19,8 @@
         transition: all 0.3s ease-in-out;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         cursor: pointer;
-
+        min-width: 120px; 
+        text-align: center;
         &:hover {
             background: rgba(255, 255, 255, 0.2);
 
@@ -32,3 +33,13 @@
     }
 }
 
+
+
+@media (max-width: 768px) {
+  .homepage-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items: center;
+  }
+}
