@@ -1,0 +1,20 @@
+@use "@/app/styles/global-variables" as *;
+
+.homepage-socials {
+    display: flex;
+    margin-top: $base-grid-4x;
+    gap: 1rem;
+  
+    .social-icon {
+      a {
+        color: rgba(128, 128, 128, 0.7); // light gray with transparency
+        font-size: 2rem; // icon size
+        transition: transform 0.3s ease, color 0.3s ease;
+  
+        &:hover {
+          transform: scale(1.2); // slightly larger
+          color: rgba(128, 128, 128, 1); // fully opaque gray
+        }
+      }
+    }
+}

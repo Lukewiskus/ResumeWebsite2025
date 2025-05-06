@@ -1,0 +1,16 @@
+.about-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); 
+    color: rgba(255, 255, 255, 0.8);
+
+    p {
+        font-size: 1.1rem;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 1.5rem;
+        transition: color 0.3s ease;
+    }
+}
