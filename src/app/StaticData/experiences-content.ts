@@ -34,7 +34,7 @@ import { FormBoxInterface } from "./formBoxInterface";
       id: 3,
       role: "Undergraduate Teching Assistant",
       company: "Univeristy of Minnesota",
-      dateRange: "Janurary 2022 – Dec 2023",
+      dateRange: "Janurary 2022 – Dec 2022",
       description:
         `As a TA for the capstone class CSCI 3081W (Program Design and Development), I helped students learn C++ and key
           software design patterns like Factory, Observer, and Decorator through hands-on 3D simulation projects.
